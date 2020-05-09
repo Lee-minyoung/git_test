@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+   <head>
+   <meta charset="UTF-8">
+   <title>Dandi</title>
+   </head>
+      <style>
+      #topMenu{         
+         height: 30px;    
+         width: 850px;    
+      }
+      #topMenu ul li{
+         list-style: none;       
+         color: black;           
+         background-color: #f5c227;   
+         float: left;            
+         line-height: 30px;         
+         vertical-align: middle;      
+         text-align: center;         
+      }
+      #topMenu .menuLink {
+         text-decoration:none;
+         color: black;
+         display: block;
+         width: 150px;
+         font-size: 12px;
+         font-weight: bold;
+         
+      }
+      #topMenu .menuLink:hover {
+         color: #E30513;
+         background-color: #E9950D;
+      }
+   </style>
+   <body>
+      <!--검색 바-->
+      
+      <!--상위 메뉴 -->
+      <nav id="topMenu">
+         <ul>
+            <li><a class="menuLink" href="#">시설물 신고</a></li>
+            <li><a class="menuLink" href="#">공공시설물조회</a></li>
+            <li><a class="menuLink" href="#">신고처리현황</a></li>
+            <li><a class="menuLink" href="#">안전뉴스</a></li>
+         </ul>
+      </nav>
+   </body>
+</html>
